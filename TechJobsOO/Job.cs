@@ -40,7 +40,8 @@ namespace TechJobsOO
 
         public override string ToString()
         {
-            return Name;
+            string v = "\n ID: " + this.Id + "\n Name: " + this.Name + "\n Employer: " + this.EmployerName.ToString() + "\n Location: " + this.EmployerLocation.ToString() + "\n Position Type: " + this.JobType.ToString() + "\n Core Compentency: " + this.JobCoreCompetency.ToString() + "\n";
+            return v;
         }
 
         
